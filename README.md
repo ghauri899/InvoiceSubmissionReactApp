@@ -1,3 +1,6 @@
+Hi Staunch Code Reviewers,
+You will find only two commits here as I did this code in one sitting straight for about 8 hours as I only had one day to do it. I have added a couple of additional features such as You will see a new button of Save and Download. That button will not only save your invoice but also download it as pdf for later use. Additionally, there are some cool validations on overall all of the form as all of the input fields are supposed to be mandatory according to the technical assessment document. Anyways, feel free to throw any question or suggestion towards me here. Looking forward to hearing back from you all! :)
+Cheers
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
