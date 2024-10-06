@@ -239,8 +239,11 @@ const InvoiceForm = () => {
         }
     };
     const handleSaveAndPrint = async () => {
-        await handleSave()
+        if(validateForm()){
+            await handleSave()
         handleDownloadPDF()
+        }
+        else toast.error("Validation checks failed")
     }
     const handleReset = (showToast = true) => {
         setBillFrom({
