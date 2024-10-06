@@ -1,0 +1,80 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  background: #FFFFFF;
+  font-family: inter;
+  overflow-x: hidden;
+  color:#101828;
+}
+.heading0{
+  font-size: 20px;
+  font-weight: 700;
+}
+.heading1{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.heading2{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.heading3{
+  font-size: 18px;
+  font-weight: 600;
+}
+.heading4{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bg-white{
+  background-color: #FFFFFF;
+}
+.bg-voilet{
+  background-color: #7F56D9;
+}
+.bg-grey{
+  background-color: #F5F5F5;
+}
+.w-10{
+  width: 10%;
+}
+.w-20{
+  width: 20%;
+}
+.w-30{
+  width: 30%;
+}
+.w-40{
+  width: 40%;
+}
+.w-45{
+  width: 45%;
+}
+.hr-line{
+  border-top: 2px solid #EAECF0;
+}
+button{
+  outline: none;
+  color: #FFFFFF;
+}
+.icon-img{
+  cursor: pointer;
+}
+.btn-rad{
+  border-radius: 8px;
+}
+.border-none{
+  border: none;
+}
+input{
+  padding-left: 8px;
+}
+
+@media (min-width: 750px) { 
+  .custom-col {
+    width: 49% !important;
+  }
+}

@@ -1,0 +1,149 @@
+.invoicePage{
+    position: relative;
+    top: 72px;
+    margin-top: 16px;
+    padding: 5px 28px;
+    height: 90vh;
+}
+.greyText{
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+}
+.form-btn{
+    height: 44px;
+    width: 80px;
+    border-radius: 8px;
+}
+.btn-reset{
+    border: 1px solid #D0D5DD;
+    background: #ffffff;
+    color: #344054;
+}
+p{
+    margin: 0!important;
+}
+
+.invoiceForm{
+    margin-bottom: 10px;
+    border-radius: 24px;
+    border: 1px solid #D0D5DD;
+    padding: 28px 38px;
+}
+.previewForm{
+    border: none;
+}
+.formLabel{
+    color: #344054;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px!important;
+}
+.formInput{
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #D0D5DD;
+    height: 44px;
+    width: 100%;
+}
+
+.previewFormLabel{
+    font-size: 16px;
+    color: #76787D;
+    font-weight: 400;
+}
+.previewFormValue{
+    font-size: 16px;
+    color: #101828;
+    font-weight: 500;
+}
+.tableHeader{
+    padding: 10px;
+  
+}
+.pr-3{
+    padding-right: 15px;
+}
+tr{
+    height: 38px;
+}
+.paymentTermDropdown{
+    height: 44px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #D0D5DD;
+    padding-left: 8px;
+    color: #101828;
+}
+.wrapMyWord {
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    word-break: break-all; 
+  }
+.custom-dropdown{
+    position: relative;
+    display: inline-block;
+    width: 100% ;
+
+}
+.dropdown-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    pointer-events: none; 
+}
+.dropdown-icon img {
+    width: 20px;
+    height: 20px;
+}
+  .ddIcon {
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    background-color: white;
+    padding-right: 30px; 
+    position: relative;
+  }
+  
+  .ddIcon:after {
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; 
+    width: 20px;
+    height: 20px;
+  }
+  .datePicker{
+    color:black;
+    padding-left: 10px;
+    
+  }
+  .input-error {
+    border-color: red;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url("calendar.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+    padding-right: 8px;
+    align-self: center;
+}
+@media (min-width: 768px) {
+    .invoiceForm {
+      margin-bottom: 0px; 
+    }
+  }
