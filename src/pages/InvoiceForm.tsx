@@ -7,11 +7,7 @@ import Toast from '../components/toast/Toast';
 import { createInvoiceApi } from '../api/invoiceApi';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
-enum InvoiceTermsEnum {
-    NET_10_DAYS = 'Net 10 Days',
-    NET_20_DAYS = 'Net 20 Days',
-    NET_30_DAYS = 'Net 30 Days',
-}
+
 export interface Item {
     name: string;
     quantity: number;
@@ -201,6 +197,9 @@ const InvoiceForm = () => {
                     position: "top-right",
                     icon: false,
                 });
+
+                //console the output
+                console.log("result",result)
                 handleReset(false)
             } catch (error) {
                 toast.error("Something went wrong")
