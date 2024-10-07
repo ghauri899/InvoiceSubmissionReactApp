@@ -6,6 +6,10 @@
   overflow-x: hidden;
   color:#101828;
 }
+input{
+  background-color: #FFFFFF;
+  color:#101828
+}
 .heading0{
   font-size: 20px;
   font-weight: 700;
@@ -60,6 +64,7 @@ button{
   outline: none;
   color: #FFFFFF;
 }
+
 .icon-img{
   cursor: pointer;
 }
