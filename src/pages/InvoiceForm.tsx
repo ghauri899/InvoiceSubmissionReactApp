@@ -278,7 +278,7 @@ const InvoiceForm = () => {
                     <p className='heading1'>New Invoice</p>
                     <p className='greyText'>Create new invoice for your customers</p>
                 </div>
-                <div className='d-flex gap-3 align-self-center'>
+                <div className='d-flex gap-3 align-self-center flex-wrap'>
                     <button type='button' className='form-btn btn-reset' onClick={()=>handleReset(true)}>Reset</button>
                     <button type='button' className='form-btn bg-voilet' onClick={handleSave}>Save</button>
                     <button type='button' className=' bg-voilet' onClick={handleSaveAndPrint}>Save & Print</button>
